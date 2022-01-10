@@ -4,7 +4,7 @@
   "description": "the gui interface use to design game on karo studio platforms",
   "main": "src/index",
   "repository": "https://github.com/karo-studio/studio.git",
-  "author": "daniel-rif <danielonyenwee@gmail.com>",
+  "author": "daniel-onyenwee <danielonyenwee@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "assert": "^2.0.0",
@@ -14,5 +14,9 @@
     "typescript": "^4.5.4",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
+  },
+  "scripts": {
+    "watch-script": "webpack watch",
+    "watch-style": "less-watch-compiler ./src/less ./dist --main-file index.less"
   }
 }
