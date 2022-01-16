@@ -2,7 +2,7 @@
   "name": "studio",
   "version": "0.0.1-beta",
   "description": "the gui interface use to design game on karo studio platforms",
-  "main": "src/index",
+  "main": "src/ts/index",
   "repository": "https://github.com/karo-studio/studio.git",
   "author": "daniel-onyenwee <danielonyenwee@gmail.com>",
   "license": "MIT",
@@ -17,6 +17,6 @@
   },
   "scripts": {
     "watch-script": "webpack watch",
-    "watch-style": "less-watch-compiler ./src/less ./dist --main-file index.less"
+    "watch-style": "less-watch-compiler ./src/less ./dist --main-file style.less"
   }
 }
