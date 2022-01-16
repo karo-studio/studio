@@ -1,0 +1,30 @@
+@import "./src/toolbar-style.less";
+@import "./src/character-bar-style.less";
+@import "./src//character-list-bar-style.less";
+
+html,
+body {
+    margin: 0 0 0 0;
+    overflow: hidden;
+}
+
+body nav.toolbar {
+    .toolbar()
+}
+
+body main.character-list-bar {
+    .character-list-bar()
+}
+
+body main.character-bar {
+    .character-bar()
+}
+
+body canvas.drawing-board {
+    position: fixed;
+    top: 50px;
+    left: 240px;
+    width: calc(100% - 240px - 300px);
+    height: calc(100% - 50px);
+    background-color: #E5E5E5;
+}
